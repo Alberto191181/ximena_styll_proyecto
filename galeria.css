@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYrypohWvPwwVYqPgWPaaKElFLj5oO4KtRoA&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#inicio img {
+    width: 100%;
+    height: 500px;
+    opacity: .8;
+}
+
+.titulo{
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align:  center;
+    color: rgb(13, 3, 37);
+    font-size: 6rem;
+    background-color: antiquewhite;
+    border-radius: 100px;
+}
+
+.Productos1{
+    margin-top: 5rem;
+}
+
+.Productos1 div {
+    display: inline-block;
+    width: 400px;
+    margin: 2rem 7.5rem 2rem 2rem;
+    background-color: burlywood;
+}
+
+.Productos2 {
+    margin-top: 2rem;
+}
+
+.Productos2 {
+    display: inline-block;
+    right: 600px;
+    margin: 2rem 27rem;
+    background-color: burlywood;
+}
+
+.Productos3 {
+    margin-top: 2rem; 
+}
+
+.Productos3 div {
+    display: inline-block;
+    right: 200px;
+    margin: 2rem 13rem;
+    background-color: burlywood;
+}
+
+footer{
+    font-size: 2rem;
+    background-color: rgb(122, 5, 24);
+    text-align: center;
+    padding: 4rem;
+    width: 100%;
+}
+
+footer a{
+    color: whitesmoke;
+    margin-left: 70px;
+    font-size: 30px;
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 30px;
+}

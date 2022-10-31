@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYrypohWvPwwVYqPgWPaaKElFLj5oO4KtRoA&usqp=CAU);;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header img {
+    width: 100%;
+    height: 400px;
+    }
+
+.enlaces_principales{
+    text-align: center;
+    font-size: 3rem;
+    background-color: rgb(238, 235, 233);
+    font-family: sans-serif;
+    text-decoration: none;
+    margin: 20px 20px 20px 20px;
+    border-radius: 20px;
+}
+
+.estructura {
+    text-align: center;
+    font-size: 3rem;
+    background-color: rgb(238, 235, 233);
+    font-family: sans-serif;
+    text-decoration: none;
+    margin: 20px 20px 20px 20px;
+    border-radius: 20px;
+}
+
+.especialistas {
+    text-align: center;
+font-size: 3rem;
+background-color: rgb(238, 235, 233);
+font-family: sans-serif;
+text-decoration: none;
+margin: 20px 20px 20px 20px;
+border-radius: 20px;
+}
+
+section a {
+    text-decoration: none;
+    margin: 30px;
+    padding: 2rem;
+}
+footer{
+    font-size: 2rem;
+    background-color: rgb(122, 5, 24);
+    text-align: center;
+    padding: 4rem;
+    width: 100%;
+}

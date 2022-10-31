@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYrypohWvPwwVYqPgWPaaKElFLj5oO4KtRoA&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#logo img {
+    width: 100%;
+    height: 400px;
+    opacity: .8;
+}
+
+.titulo {
+    text-align:  center;
+    color: rgb(18, 18, 72);
+}
+
+.titulo h1 {
+    font-size: 4rem;
+    background-color: rgb(229, 222, 222);
+    color: rgb(37, 21, 87);
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 50px;
+    transition: .7s;
+    cursor: pointer;
+}
+
+.titulo h1:hover {
+    background-color: brown;
+    color: rgb(238, 242, 242);
+    transition: .7s;
+}
+
+.titulo p{
+    font-size: 3rem;
+    border-radius: 20px;
+
+}
+
+.servicios {
+    font-size: 2rem;
+    background-color: rgb(12, 2, 54);
+    color: rgb(239, 236, 249);
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    transition: .7s;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.fotos img {
+margin-left: 700px;
+margin-right: 700px;
+
+}
+
+.fotos h2{
+    font-size: 3rem;
+    text-align: center;
+    background-color: rgb(12, 2, 54);
+    color: rgb(239, 236, 249);
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-right: 500px;
+
+}
+
+footer{
+    font-size: 2rem;
+    background-color: rgb(122, 5, 24);
+    text-align: center;
+    padding: 4rem;
+    width: 100%;
+}
+
+footer a{
+    color: whitesmoke;
+    margin-left: 70px;
+    font-size: 30px;
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 30px;
+
+}

@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYrypohWvPwwVYqPgWPaaKElFLj5oO4KtRoA&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#inicio img {
+    width: 100%;
+    height: 400px;
+    opacity: .8;
+}
+
+.nuestros_productos {
+    text-align:  center;
+    color: rgb(13, 3, 37);
+
+}
+
+.nuestros_productos h1 {
+    font-size: 6rem;
+}
+
+.nuestros_productos p {
+    font-size: 2rem;
+    background-color: beige;
+    border-radius: 50px;
+}
+
+.Cremas_faciales {
+    text-align:  center;
+    color: rgb(255, 255, 255);
+    
+}
+
+.Cremas_faciales h2{
+    font-size: 4rem;
+    background-color: rgb(229, 222, 222);
+    color: rgb(37, 21, 87);
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 50px;
+    transition: .7s;
+    cursor: pointer;
+}
+
+.Cremas_Corporales {
+    text-align:  center;
+    color: rgb(255, 255, 255);
+
+}
+
+.Cremas_Corporales h2{
+    font-size: 4rem;
+    background-color: rgb(229, 222, 222);
+    color: rgb(37, 21, 87);
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 50px;
+    transition: .7s;
+    cursor: pointer;
+}
+
+.Maquillaje {
+    font-size: 2rem;
+    color: rgb(239, 236, 249);
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    transition: .7s;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.Maquillaje h2{
+    font-size: 4rem;
+    background-color: rgb(229, 222, 222);
+    color: rgb(37, 21, 87);
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 50px;
+    transition: .7s;
+    cursor: pointer;
+}
+
+footer{
+    font-size: 2rem;
+    background-color: rgb(122, 5, 24);
+    text-align: center;
+    padding: 4rem;
+    width: 100%;
+}
+
+footer a{
+    color: whitesmoke;
+    margin-left: 70px;
+    font-size: 30px;
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 30px;
+
+}

@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYrypohWvPwwVYqPgWPaaKElFLj5oO4KtRoA&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#inicio img {
+    width: 100%;
+    height: 500px;
+    opacity: .8;
+}
+.Contactanos{
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align:  center;
+    color: rgb(13, 3, 37);
+    font-size: 6rem;
+    background-color: antiquewhite;
+    border-radius: 100px;
+
+}
+footer{
+    font-size: 2rem;
+    background-color: rgb(122, 5, 24);
+    text-align: center;
+    padding: 4rem;
+    width: 100%;
+}
+
+footer a{
+    color: whitesmoke;
+    margin-left: 70px;
+    font-size: 30px;
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 30px;
+
+}
